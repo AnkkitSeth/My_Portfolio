@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:paleturquoise;
+}
+nav{
+   background:  paleturquoise;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color:#0081e4;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float:right;
+    margin-right: 350px
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform:uppercase ;
+}
+a.active, a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.intro{
+    height:250px;
+    width:500px;
+    margin-top: 150px;
+    
+}
+ 
+img{
+    margin-top: -555px;  
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 15%;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+#page_head{
+    font-size: 70px;
+    color: brown;
+
+}
+.outer-container{
+    width: 1200px;
+    height: 700px;
+    margin: 5px auto;
+   
+    text-align: center;
+    
+    
+}
+.intro h4{
+    font-weight: bold; margin-left: 90px; font-size: 25px;
+}
+.intro h1{
+    font-weight:bolder; margin-left: 90px; font-size: 60px;
+}
+.intro h2{
+    font-weight: bold; margin-left: 90px; font-size: 32px; color: #0081e4;
+}
+
+.contact_para1{
+    color:darkslategrey;
+    text-align: center;
+    font-family:cursive;
+    font-size: 30px;
+    margin-top: 90px;
+}
+.contact_para2{
+    color: darkslategrey;
+    text-align:left;
+    font-family:cursive;
+    font-size: 30px;
+    margin-top: 90px;
+}
+.link{
+    font-size: 30px;
+    color:darkgoldenrod;
+
+}
+.skills{
+    margin-top: 70px;
+    font-size: 30px;
+    color: darkgoldenrod;
+    list-style: disc;
+}

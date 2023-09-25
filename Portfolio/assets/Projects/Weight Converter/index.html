@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <style>
+        body{
+            background-color:aquamarine;
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+        .container{
+            border: 3px solid black;
+            width: 520px;
+            height: 450px;
+            background-color:azure;
+            margin-top: 75px;
+        }
+        h1{
+            font-size: 40px;
+            font-weight: bold;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align:center
+        }
+        .input-div{
+            display: inline-block;
+        }
+        .inp{
+            padding: 5px 10px;
+            margin: 10px 10px 10px 100px;
+            font-size: 30px;
+            font-weight: bold;
+            width: 250px;
+            text-align: center;
+        }
+        label{
+            font-size: 25px;
+            margin-left: 20px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WEIGHT CONVERTER</h1>
+        <label>Kilogram</label><br>
+        <input type="number" value="0" class="inp" id="kg"><br><br>
+        <label>Pounds</label><br>
+        <input type="number" value="0" class="inp" id="pounds"><br><br>
+        <label>Ounces</label><br>
+        <input type="number" value="0" class="inp" id="ounces">
+    </div>
+</body>
+<script>
+    var kg=document.getElementById("kg");
+    var pounds=document.getElementById("pounds");
+    var ounces=document.getElementById("ounces");
+
+    kg.addEventListener('input',function(){
+        let k=this.value;
+        let p=2.205*k;
+        let o=35.274*k;
+        if(!Number.isInteger(p)){
+                p = p.toFixed(4);
+            }
+        if(!Number.isInteger(o)){
+                        o = o.toFixed(4);
+                    }        
+        pounds.value=p;
+        ounces.value=o;
+    })
+
+    pounds.addEventListener('input',function(){
+        let p=this.value;
+        let k=0.454*p;
+        let o=16*p;
+        if(!Number.isInteger(k)){
+                k = k.toFixed(4);
+            }
+        if(!Number.isInteger(o)){
+                        o = o.toFixed(4);
+                    } 
+
+        kg.value=k;
+        ounces.value=o;
+    })
+
+    ounces.addEventListener('input',function(){
+        let o=this.value;
+        let k=0.0283*o;
+        let p=0.0625*o;
+        if(!Number.isInteger(p)){
+                p = p.toFixed(4);
+            }
+        if(!Number.isInteger(k)){
+                        k = k.toFixed(4);
+                    } 
+
+        kg.value=k;
+        pounds.value=p;
+        
+    })
+    
+
+</script>
+</html>

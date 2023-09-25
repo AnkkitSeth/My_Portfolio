@@ -1,0 +1,197 @@
+#outer_div{
+    border:2px solid black;
+    margin:20px 360px 20px 360px;
+    width:600px;
+    height:600px;
+    
+}
+
+.row1{
+    border:2px solid black;
+    margin:0px;
+    width:593x;
+    height:237px;
+
+}
+.row2{
+    border-top: 0px solid black;
+    border-right: 2px solid black;
+    border-bottom: 0px solid black;
+    border-left: 2px solid black;
+    margin:0px;
+    width:596px;
+    height:118.5px;
+}
+.row3{
+    border:2px solid black;
+    margin:0px;
+    width:593x;
+    height:237px;
+
+}
+.r_c1{
+    border-top: 0px solid black;
+    border-right: 2px solid black;
+    border-bottom: 0px solid black;
+    border-left: 0px solid black;
+    width:236px;
+    height:237px;
+    float:left;
+    
+}
+.r_c2{
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+    border-left: 0px solid black;
+    width:118px;
+    height:237px;
+    float:left;
+}
+.r_c3{
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+    border-left: 2px solid black;
+    width:236px;
+    height:237px;
+    float: left;
+}
+.r2_c1{
+    border-top: 0px solid black;
+    border-right: 2px solid black;
+    border-bottom: 0px solid black;
+    border-left: 0px solid black;
+    width:236px;
+    height:118.5px;
+    float:left;
+  
+}
+.r2_c2{
+    border-top: 0px solid black;
+    border-right: 2px solid black;
+    border-bottom: 0px solid black;
+    border-left: 0px solid black;
+    width:118px;
+    height:118.5px;
+    float:left;
+    
+}
+.r2_c3{
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+    border-left: 0px solid black;
+    width:236px;
+    height:118.5px;
+    float:left;
+    
+}
+.inner_color{
+    margin: 40px;
+    padding: 0px;
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    
+}
+.piece{
+    width:45px;
+    height:45px ;
+    margin:17px ;
+    float:left;
+    padding: 0px;
+}
+.GY_r{
+    width: 118.5px;
+    height: 37.75px;
+    
+}
+.RB_r{
+    width: 118.5px;
+    height: 37.75px;
+   
+}
+.GY_r_in{
+    width: 38px;
+    height: 37.75px;
+    float: left;
+    
+}
+.GR_r{
+    width: 234px;
+    height: 38px;
+    border: 1px solid black;
+    
+}
+.GR_r_in{
+    width: 37.25px;
+    height: 38px;
+    float: left;
+    
+}
+.YB_r{
+    width: 235px;
+    height: 38px;
+    border: 1px solid black;
+    
+}
+.YB_r_in{
+    width: 37px;
+    height: 38px;
+    float: left;
+    
+}
+.circle{
+    background-color: white;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    margin: 4px;
+}
+.coloured_circle{
+    background-color: aqua;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    margin: 4px;
+}
+.triangle_red{
+    width: 0px;
+    height: 0px;
+    margin: 70px auto;
+    position: relative;
+    border-left: 55px solid transparent;
+    border-right:55px solid transparent;
+    border-bottom:50px solid red;
+}
+.triangle_yellow{
+    width: 0px;
+    height: 0px;
+    margin: -190px auto;
+    position: relative;
+    border-left: 55px solid transparent;
+    border-right:55px solid transparent;
+    border-top:50px solid yellow;
+}
+.triangle_green{
+    width: 0px;
+    height: 0px;
+    margin: 145px -190px -190px 0px;
+    position: ;
+    border-top: 55px solid transparent;
+    border-bottom:55px solid transparent;
+    border-left:50px solid lawngreen;
+}
+.triangle_blue{
+    width: 0px;
+    height: 0px;
+    margin: 80px 225px 175px 67.5px ;
+    position:;
+    border-bottom: 55px solid transparent;
+    border-top:55px solid transparent;
+    border-right:50px solid blue;
+}
+
+
+

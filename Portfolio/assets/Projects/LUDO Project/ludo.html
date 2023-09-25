@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Game</title>
+    <link rel="stylesheet" href="ludo.css">
+</head>
+<body>
+    <div id="outer_div">                           <!-- Outer Container-->
+        
+        <div class="row1">       <!--Row1 inside outer container-->
+             
+            <div class="r_c1" style="background-color:lawngreen;">   <!--Column1 of Row1 (Green)-->
+                <div class="inner_color">        <!--Made white bg above green box-->
+                    <div>
+                        <div class="piece" style="background-color: lawngreen;"></div>   <!--Place for Piece1-->
+                        <div class="piece" style="background-color: lawngreen;"></div>   <!--Place for Piece2-->
+                    </div>
+                    <div>
+                        <div class="piece" style="background-color: lawngreen;"></div>   <!--Place for Piece3-->
+                        <div class="piece" style="background-color: lawngreen;"></div>   <!--Place for Piece4-->
+                    </div> 
+                </div>
+            </div>
+
+             <div class="r_c2">         <!-- column between green and yellow-->
+                <div class="GY_r" style="border-bottom:2px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in"></div>
+                </div>
+
+                <div class="GY_r" style="border-bottom:2px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in" style="border-right: 1px solid black; background-color: yellow;"></div>
+                    <div class="GY_r_in" style="background-color: yellow;">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+
+                <div class="GY_r" style="border-bottom:2px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black;">
+                        <div class="coloured_circle" style="background-color: yellow;"></div>
+                    </div>
+                    <div class="GY_r_in" style="border-right: 1px solid black; background-color: yellow;"></div>
+                    <div class="GY_r_in"></div>
+                </div>
+
+                <div class="GY_r" style="border-bottom:2px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in" style="border-right: 1px solid black; background-color: yellow;"></div>
+                    <div class="GY_r_in"></div>
+                </div>
+
+                <div class="GY_r" style="border-bottom:2px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in" style="border-right: 1px solid black; background-color: yellow;"></div>
+                    <div class="GY_r_in"></div>
+                </div>
+
+                <div class="GY_r" style="border-bottom:0px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in" style="border-right: 1px solid black; background-color: yellow;"></div>
+                    <div class="GY_r_in"></div>
+                </div>
+
+             </div>
+             <div class="r_c3" style="background-color: yellow;">   <!--Column3 of Row1 (Yellow)-->
+                <div class="inner_color">     <!--Made white bg above yellow box-->
+                    <div>
+                        <div class="piece" style="background-color: yellow;"></div>   <!--Place for Piece1-->
+                        <div class="piece" style="background-color: yellow;"></div>   <!--Place for Piece2-->
+                    </div>
+                    <div>
+                        <div class="piece" style="background-color: yellow;"></div>    <!--Place for Piece3-->
+                        <div class="piece" style="background-color: yellow;"></div>    <!--Place for Piece4-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">        <!--Row2 inside outer container-->
+             
+            <div class="r2_c1">   <!--Column1 of Row2-->
+                <div class="GR_r">
+                    <div class="GR_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="GR_r_in" style="border-right: 2px solid black; background-color: lawngreen;">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="GR_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="GR_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="GR_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="GR_r_in" style="border-right: 0px solid black;"></div>
+                </div>
+                <div class="GR_r">
+                    <div class="GR_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="GR_r_in" style="border-right: 2px solid black; background-color: lawngreen;"></div>
+                    <div class="GR_r_in" style="border-right: 2px solid black; background-color: lawngreen;"></div>
+                    <div class="GR_r_in" style="border-right: 2px solid black; background-color: lawngreen;"></div>
+                    <div class="GR_r_in" style="border-right: 2px solid black; background-color: lawngreen;"></div>
+                    <div class="GR_r_in" style="border-right: 0px solid black; background-color: lawngreen;"></div>
+                </div>
+                <div class="GR_r">
+                    <div class="GR_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="GR_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="GR_r_in" style="border-right: 2px solid black;">
+                        <div class="coloured_circle" style="background-color: lawngreen"></div>
+                    </div>
+                    <div class="GR_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="GR_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="GR_r_in" style="border-right: 0px solid black;"></div>
+                </div>
+             </div>
+             <div class="r2_c2">    <!--Column2 of Row2 (The HOME part) -->
+                <div class="triangle_red"></div>
+                <div class="triangle_yellow"></div>
+                <div class="triangle_green"></div>
+                <div class="triangle_blue"></div>
+             </div>
+
+             <div class="r2_c3">      <!--Column3 of Row2 -->   
+                <div class="YB_r">
+                    <div class="YB_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black;">
+                        <div class="coloured_circle" style="background-color: blue;"></div>
+                    </div>
+                    <div class="YB_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black;"></div>
+                    
+                </div>
+                <div class="YB_r">
+                    <div class="YB_r_in" style="border-right: 2px solid black; background-color: blue;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black; background-color: blue;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black; background-color: blue;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black; background-color: blue;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black; background-color: blue;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black;"></div>
+                </div>
+                <div class="YB_r">
+                    <div class="YB_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black;"></div>
+                    <div class="YB_r_in" style="border-right: 2px solid black; background-color: blue;">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="YB_r_in" style="border-right: 2px solid black;"></div>
+                </div>
+             </div>
+        </div>
+        <div class="row3">      <!--Row3 inside outer container-->
+            <div class="r_c1" style="background-color: red;">
+                <div class="inner_color">     <!--Made white bg above red box-->
+                    <div>
+                        <div class="piece" style="background-color: red;"></div>    <!--Place for Piece1-->
+                        <div class="piece" style="background-color: red;"></div>    <!--Place for Piece2-->
+                    </div>
+                    <div>
+                        <div class="piece" style="background-color: red;"></div>    <!--Place for Piece3-->
+                        <div class="piece" style="background-color: red;"></div>    <!--Place for Piece4-->
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="r_c2">     <!-- column between red and blue-->
+                <div class="RB_r" style="border-bottom:2px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in" style="border-right: 1px solid black; background-color: red;"></div>
+                    <div class="GY_r_in"></div>
+                </div>
+
+                <div class="RB_r" style="border-bottom:2px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in" style="border-right: 1px solid black; background-color: red;"></div>
+                    <div class="GY_r_in"></div>
+                </div>
+
+                <div class="RB_r" style="border-bottom:2px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in" style="border-right: 1px solid black; background-color: red;"></div>
+                    <div class="GY_r_in"></div>
+                </div>
+
+                <div class="RB_r" style="border-bottom:2px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in" style="border-right: 1px solid black; background-color: red;"></div>
+                    <div class="GY_r_in">
+                        <div class="coloured_circle" style="background-color: red;"></div>
+                    </div>
+                </div>
+
+                <div class="RB_r" style="border-bottom:2px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black; background-color: red;">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="GY_r_in" style="border-right: 1px solid black; background-color: red;"></div>
+                    <div class="GY_r_in"></div>
+                </div>
+
+                <div class="RB_r" style="border-bottom:0px solid black;">
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in" style="border-right: 1px solid black;"></div>
+                    <div class="GY_r_in"></div>
+                </div>
+             
+            </div>
+            <div class="r_c3" style="background-color: blue;">
+                <div class="inner_color">    <!--Made white bg above blue box-->
+                    <div>
+                        <div class="piece" style="background-color: blue;"></div>     <!--Place for Piece1-->
+                        <div class="piece" style="background-color: blue;"></div>     <!--Place for Piece2-->
+                    </div>
+                    <div>
+                        <div class="piece" style="background-color: blue;"></div>    <!--Place for Piece3-->
+                        <div class="piece" style="background-color: blue;"></div>    <!--Place for Piece4-->
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
